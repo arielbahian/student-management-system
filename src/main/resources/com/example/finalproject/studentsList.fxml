@@ -10,7 +10,7 @@
                <children>
                   <HBox alignment="BOTTOM_LEFT" prefHeight="57.0" prefWidth="560.0" spacing="10.0">
                      <children>
-                        <Button mnemonicParsing="false" text="ADD" />
+                        <Button mnemonicParsing="false" onAction="#onAddClick" text="ADD" />
                         <Button mnemonicParsing="false" text="UPDATE" />
                         <Button mnemonicParsing="false" text="DELETE" />
                         <HBox alignment="BOTTOM_RIGHT" prefHeight="57.0" prefWidth="375.0">
@@ -24,7 +24,7 @@
                </children>
             </VBox>
             <CheckBox mnemonicParsing="false" text="Select all" />
-             <ScrollPane VBox.vgrow="ALWAYS" fitToHeight="true" fitToWidth="true">
+             <ScrollPane fitToHeight="true" fitToWidth="true" VBox.vgrow="ALWAYS">
                  <content>
                      <TableView>
                          <columns>
